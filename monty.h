@@ -67,7 +67,7 @@ void sub(stack_t **head, unsigned int counter);
 void add_node_to_stack(stack_t **head, unsigned int counter);
 void multiply_to_two(stack_t **head, unsigned int counter);
 void mod_top_two(stack_t **head, unsigned int counter);
-void print_char(stack_t **head, unsigned int counter);
+void print_char_from_stack(stack_t **head, unsigned int counter);
 void print_char(stack_t **head, unsigned int counter);
 void rotatestack(stack_t **head, unsigned int counter);
 void rotr(stack_t **head, __attribute__((unused)) unsigned int counter);
