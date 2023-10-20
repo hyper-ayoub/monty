@@ -54,8 +54,8 @@ typedef struct instruction_s
 char *_realloc(char *ptr, unsigned int old_size, unsigned int new_size);
 ssize_t getstdin(char **lineptr, int file);
 char  *clean_line(char *content);
-void add_node_from_stack(stack_t **head, unsigned int number);
-void print_pall(stack_t **head, unsigned int number);
+void push(stack_t **head, unsigned int number);
+void pall(stack_t **head, unsigned int number);
 void print_top_elemnt(stack_t **head, unsigned int number);
 int execute_(char *content, stack_t **head, unsigned int counter, FILE *file);
 void free_stack(stack_t *head);
