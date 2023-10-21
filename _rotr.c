@@ -1,9 +1,9 @@
 #include "monty.h"
 /**
   *rotr- rotates the stack to the bottom
-  *@head: stack head
-  *@counter: line_number
-  *Return: no return
+  *@head: The stack head
+  *@counter: The line_number
+  *Return: no return value
  */
 void rotr(stack_t **head, __attribute__((unused)) unsigned int counter)
 {
